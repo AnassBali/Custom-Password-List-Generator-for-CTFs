@@ -49,17 +49,17 @@ def main():
     print(f"Maximum depth: {max_depth}")
     print(f"Special characters: {special_chars}")
 
-    # Generate combinations
+    # Combinaties genereren
     all_combinations = generate_combinations(words, max_depth, special_chars)
 
-    # Calculate and display size
+    # Size weergeven
     size = calculate_list_size(all_combinations)
     print(f"Estimated total size of password list: {size}")
 
-    # Display sample output
+    # Sample weergeven
     display_sample_output(all_combinations, sample_size)
 
-    # Save to file
+    # Opslaan
     save_to_file(all_combinations, output_file)
     print(f"Password list saved to {output_file}")
 
