@@ -1,5 +1,8 @@
 # Custom Password List Generator for CTFs
 
+## EXAMPLE
+python3 main.py -w word1 word2 word3 -d 2 -s '!' '@' -o output.txt --sample-size 10
+
 ## Overview
 
 This project is a Python script designed to help generate password lists for cracking purposes. It combines words in various ways, includes special characters, and changes case to create a comprehensive list of potential passwords.
@@ -17,5 +20,5 @@ This project is a Python script designed to help generate password lists for cra
 Ensure you have Python 3.7+ installed. Clone the repository and navigate to the project directory.
 
 ```sh
-git clone [https://github.com/AnassBali/password-list-generator.git](https://github.com/AnassBali/Custom-wordlists-for-CTFs.git)
+git clone https://github.com/AnassBali/password-list-generator.git
 cd Custom-wordlists-for-CTF
